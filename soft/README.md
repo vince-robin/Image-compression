@@ -1,7 +1,7 @@
 
 ## Organisation du répertoire
 
-* :file_folder: [/img](img) : images à tester que j'ai sélectionné pour leurs caractéristiques remarquables. Elles ont des textures/nuances différentes, présentent des faibles/fortes variations de couleurs, ont des dimensions différentes (divisibles ou non par la taille de bloc). Je mets également à disposition des images synthétiques simples .ppm générées avec mon script Python.
+* :file_folder: [/imgs](imgs) : images à tester que j'ai sélectionné pour leurs caractéristiques remarquables. Elles ont des textures/nuances différentes, présentent des faibles/fortes variations de couleurs, ont des dimensions différentes (divisibles ou non par la taille de bloc). Je mets également à disposition des images synthétiques simples .ppm générées avec mon script Python.
 
 * :file_folder: [/vhdl](vhdl) : quelques briques VHDL du processus de compression/décompression (typiquement RLE, DCT, Zigzag) pour une future implémentation sur FPGA. Les codes utilisent un environnement logiciel très léger : ils sont compilables avec *GHDL* et simulables avec *GTKWave*.
 
