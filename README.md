@@ -24,6 +24,8 @@ L'algorithme de compression/décompression reprend en grande partie les étapes 
 - RLE (*Run-Length Encoding*),
 - codage entropique à longueur variable (Huffman).
 
+<img src="jpeg_process.jpg" alt="drawing" style="width:1000px;"/>
+
 Le programme de décompression, reproduit à l'identique, mais dans l'ordre inverse, le processus de compression. 
 
 Le modèle prend en entrée une image (le format est libre : .jpg/.jpeg, .png, .bmp, .tiff..., la dimension également), mais je fournis également un script Python permettant de générer des images synthétiques au format PPM, images simples qui peuvent être utilisées pour tester les différentes phases de l'algorithme.
