@@ -47,4 +47,4 @@ Un Wiki complet et structuré décrit explicitement chaque étape de l'algorithm
 
 ## Avertissements
 
-Malgré tous mes efforts, et l'attention portée à mes développements, je n'apporte aucune garantie de qualité ou d'adéquation à un usage particulier. Ce projet est le fruit de mes propres développements, c'est pourquoi, j'exige, à minima, un pointeur vers mon git en cas de réutilisation de tout ou partie de mes codes. 
+Malgré tous mes efforts, et l'attention portée à mes développements, je n'apporte aucune garantie de qualité ou d'adéquation à un usage particulier. Ce projet est le fruit de mes propres développements, c'est pourquoi, j'exige, à minima, un pointeur vers mon git en cas de réutilisation de tout ou partie de mes codes et/ou images. 
