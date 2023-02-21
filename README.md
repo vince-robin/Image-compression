@@ -45,7 +45,6 @@ Le **décompresseur** utilise le bitstream et les dictionnaires de Huffman afin 
 
 Un Wiki complet et structuré décrit explicitement chaque étape de l'algorithme de compression et de décompression. Je conseille également de prendre connaissance des README que j'ai ajouté dans les différents répertoires du projet.
 
-
 ## Avertissements
 
 Malgré tous mes efforts, et l'attention portée à mes développements, je n'apporte aucune garantie de qualité ou d'adéquation à un usage particulier. Ce projet est le fruit de mes propres développements, c'est pourquoi, j'exige, à minima, un pointeur vers mon git en cas de réutilisation de tout ou partie de mes codes. 
