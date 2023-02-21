@@ -15,8 +15,6 @@ S'assurer au préalable que les droits d'exécution ont été accordés à l'uti
     $   sudo apt-get install ghdl gtkwave
 
 
-## Comment installer GHDL et GTKWave sous Windows
-
 Pour les inconditionnels de Windows, GHDL et GTKWave peuvent être installées depuis WSL avec la même commande.
 
 
