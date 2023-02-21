@@ -13,23 +13,24 @@ Le projet vise en premier lieu à élaborer un modèle de référence (inspiré 
 
 ## Structure du modèle de référence
 
-L'algorithme de compression/décompression que j'ai construit reprend en grande partie les étapes connues du standard JPEG, à savoir :
+L'algorithme de compression/décompression reprend en grande partie les étapes connues du standard JPEG, à savoir :
 - conversion de l'espace des couleurs (RGB vers YUV),
 - sous-échantillonnage de la chrominance (4:4:4 vers 4:4:2 ou 4:2:0),
 - découpage en blocs 8x8 de 64 pixels,
+- zero-padding (uniquement pour les images de dimensions non divisibles par la taille de bloc),
 - DCT (*Discrete Cosine Transform*),
 - quantification des blocs de pixels,
-- ZigZag,
+- Zigzag,
 - RLE (*Run-Length Encoding*),
-- Codage entropique à longueur variable (Huffman).
+- codage entropique à longueur variable (Huffman).
 
 Le programme de décompression, reproduit à l'identique, mais dans l'ordre inverse, le processus de compression. 
 
-Le modèle prend en entrée une image (le format est libre : .jpg/.jpeg, .png, .bmp, .tiff...), mais je fournis également un script Python permettant de générer des images synthétiques au format PPM, images simples qui peuvent être utilisées pour tester les différentes phases de l'algorithme.
+Le modèle prend en entrée une image (le format est libre : .jpg/.jpeg, .png, .bmp, .tiff..., la dimension également), mais je fournis également un script Python permettant de générer des images synthétiques au format PPM, images simples qui peuvent être utilisées pour tester les différentes phases de l'algorithme.
 
-Le **compresseur** génère un fichier *.txt* qui contient le flux de données (bitstream) encodé et les dictionnaires de Huffman utilisés pour le codage des canaux Y,Cr,Cb.
+Le **compresseur** génère un fichier *.txt* qui contient le flux de données (bitstream) encodé et les dictionnaires de Huffman utilisés pour le codage des canaux Y,Cr,Cb. Il affiche à titre d'informations le taux de compression (en prenant en compte la taille des dictionnaires de Huffman transmis au décodeur).
 
-Le **décompresseur** utilise ce bitstream et les dictionnaires de Huffman afin de reconstruire l'image d'origine qui est sauvargardé au format .jpg et au format .ppm
+Le **décompresseur** utilise le bitstream et les dictionnaires de Huffman afin de reconstruire l'image d'origine qui est sauvargardé au format .jpg et au format .ppm
 
 
 ## Organisation du répertoire
