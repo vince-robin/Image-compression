@@ -35,7 +35,7 @@ def rgb_to_ycrcb(im):
 
 if __name__ == '__main__':
 
-    PATH ="img/baboon.jpg"
+    PATH ="imgs/baboon.jpg"
     img_rgb = img.imread(PATH)
     height, width, channels = img_rgb.shape
     print("Frame shape: ({0} x {1})".format(height, width))
@@ -85,7 +85,7 @@ if __name__ == '__main__':
     plt.subplots_adjust(wspace=0.5)
     
     # Sauvegarde des figures 
-    fig1.savefig('conv_rgb_to_ycrcb.png')
-    fig2.savefig('view_channels.png')
+    fig1.savefig('imgs/conv_rgb_to_ycrcb.png')
+    fig2.savefig('imgs/view_channels.png')
 
     plt.show()
