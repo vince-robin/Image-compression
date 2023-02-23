@@ -57,16 +57,16 @@ if __name__ == '__main__':
     cbSub420 = cbSub422[::2, ::2]
 
     fig1=plt.figure(figsize=(9,5))
-    fig1.add_subplot(3, 3, 1)
+    fig1.add_subplot(2, 2, 1)
     plt.title("Composante Cr")
     plt.imshow(cr)
-    fig1.add_subplot(3, 3, 3)
+    fig1.add_subplot(2, 2, 3)
     plt.title("Composante Cr 4:2:0")
     plt.imshow(crSub420)
-    fig1.add_subplot(3, 3, 2)
+    fig1.add_subplot(2, 2, 2)
     plt.title("Composante Cb")
     plt.imshow(cb)
-    fig1.add_subplot(3, 3, 4)
+    fig1.add_subplot(2, 2, 4)
     plt.title("Composante Cb 4:2:0")
     plt.imshow(cbSub420)
 
