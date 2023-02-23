@@ -24,7 +24,7 @@ L'algorithme de compression/décompression reprend en grande partie les étapes 
 - RLE (*Run-Length Encoding*),
 - codage entropique à longueur variable (Huffman).
 
-<img src="jpeg_process.jpg" alt="drawing" style="width:1000px;"/>
+<img src="/imgs/jpeg_process.jpg" alt="drawing" style="width:1000px;"/>
 
 Le programme de décompression, reproduit à l'identique, mais dans l'ordre inverse, le processus de compression. 
 
