@@ -294,5 +294,5 @@ if __name__ == '__main__':
     plt.show()
 
     # Sauvegarde de la figure 
-    fig.savefig("channels_after_quantification_QLevel_"+str(QLEVEL)+".png")
+    fig.savefig("quantization_error_QLevel_"+str(QLEVEL)+".png")
     
