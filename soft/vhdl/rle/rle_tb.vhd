@@ -46,9 +46,9 @@ begin
   --------------------------------------------------------------------------------
   -- Reset and clock 
   --------------------------------------------------------------------------------
-	reset_n <= '0','1' after 123 ns;
+  reset_n <= '0','1' after 123 ns;
 	
-	clk <= not(clk) after HALF_PERIOD when running else clk;
+  clk <= not(clk) after HALF_PERIOD when running else clk;
   --------------------------------------------------------------------------------
   -- Design Under Test (DUT)
   --------------------------------------------------------------------------------
@@ -56,7 +56,7 @@ begin
     port map (
       clk        => clk       ,
       reset_n    => reset_n   ,
-	  wr         => wr        ,
+      wr         => wr        ,
       oe         => oe        ,
       rle_in  => rle_in       ,
       rle_out => rle_out   
@@ -73,7 +73,7 @@ begin
     variable input_block: block_flatten(0 to (IN_LENGTH-1)); 
  
   begin
-    report "running testbench for zigzag_tb(arch)"; 
+    report "running testbench for rle_tb(arch)"; 
 	oe <= '0';
 	wr <= '0';
 	
@@ -94,14 +94,16 @@ begin
 	end loop;
     file_close(IN_FILE);
 		
-	wr <= '1';		
-	rle_in <= input_block; 	
-	wait_cycles(1);  
-	oe <= '1';
+    wr <= '1';		
+    rle_in <= input_block; 	
+    wait_cycles(1);  
+
+    oe <= '1';
     wait_cycles(10);  
+
     report "end of simulation";
-	running <= false;
-	wait;
+    running <= false;
+    wait;
   end process;
 
 end bhv;
