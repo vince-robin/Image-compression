@@ -67,7 +67,7 @@ begin
   stim : process 
   
     file     IN_FILE: text;
-	variable IN_LINE: line;
+    variable IN_LINE: line;
     variable IN_STATUS: file_open_status;
 
     variable input_block: block_flatten(0 to (IN_LENGTH-1)); 
