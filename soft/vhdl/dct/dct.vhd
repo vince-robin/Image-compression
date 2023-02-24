@@ -5,14 +5,14 @@ use work.pkg.all;
 
 
 entity dct is
-  port    ( 
+  port( 
             clk    : in std_logic;
-			reset_n: in std_logic;
-			wr     : in std_logic;
-			oe     : in std_logic; -- output enable
-			dct_in : in array_2d;
-			dct_out: out array_2d
-		   ); 
+	    reset_n: in std_logic;
+	    wr     : in std_logic;
+	    oe     : in std_logic; -- output enable
+	    dct_in : in array_2d;
+	    dct_out: out array_2d
+       ); 
 end entity;
 
 
