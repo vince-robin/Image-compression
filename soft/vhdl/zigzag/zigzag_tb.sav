@@ -1,0 +1,103 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Feb 24 15:02:04 2023
+[*]
+[dumpfile] "/mnt/c/Users/vince/Documents/Documents USB/ENSTA/Sequences Academiques/SA6/Application système/soft/FPGA/implementable/zigzag/zigzag_tb.ghw"
+[dumpfile_mtime] "Fri Feb 24 15:00:52 2023"
+[dumpfile_size] 2941
+[savefile] "/mnt/c/Users/vince/Documents/Documents USB/ENSTA/Sequences Academiques/SA6/Application système/soft/FPGA/implementable/zigzag/zigzag_tb.sav"
+[timestart] 0
+[size] 1536 793
+[pos] -139 -139
+*-25.854918 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.zigzag_tb.
+[sst_width] 214
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 220
+@28
+top.zigzag_tb.dut.clk
+top.zigzag_tb.dut.reset_n
+top.zigzag_tb.dut.wr
+top.zigzag_tb.dut.oe
+@22
+#{top.zigzag_tb.zigzag_in[0][0:7]} top.zigzag_tb.zigzag_in[0][0] top.zigzag_tb.zigzag_in[0][1] top.zigzag_tb.zigzag_in[0][2] top.zigzag_tb.zigzag_in[0][3] top.zigzag_tb.zigzag_in[0][4] top.zigzag_tb.zigzag_in[0][5] top.zigzag_tb.zigzag_in[0][6] top.zigzag_tb.zigzag_in[0][7]
+#{top.zigzag_tb.zigzag_in[1][0:7]} top.zigzag_tb.zigzag_in[1][0] top.zigzag_tb.zigzag_in[1][1] top.zigzag_tb.zigzag_in[1][2] top.zigzag_tb.zigzag_in[1][3] top.zigzag_tb.zigzag_in[1][4] top.zigzag_tb.zigzag_in[1][5] top.zigzag_tb.zigzag_in[1][6] top.zigzag_tb.zigzag_in[1][7]
+#{top.zigzag_tb.zigzag_in[2][0:7]} top.zigzag_tb.zigzag_in[2][0] top.zigzag_tb.zigzag_in[2][1] top.zigzag_tb.zigzag_in[2][2] top.zigzag_tb.zigzag_in[2][3] top.zigzag_tb.zigzag_in[2][4] top.zigzag_tb.zigzag_in[2][5] top.zigzag_tb.zigzag_in[2][6] top.zigzag_tb.zigzag_in[2][7]
+#{top.zigzag_tb.zigzag_in[3][0:7]} top.zigzag_tb.zigzag_in[3][0] top.zigzag_tb.zigzag_in[3][1] top.zigzag_tb.zigzag_in[3][2] top.zigzag_tb.zigzag_in[3][3] top.zigzag_tb.zigzag_in[3][4] top.zigzag_tb.zigzag_in[3][5] top.zigzag_tb.zigzag_in[3][6] top.zigzag_tb.zigzag_in[3][7]
+#{top.zigzag_tb.zigzag_in[4][0:7]} top.zigzag_tb.zigzag_in[4][0] top.zigzag_tb.zigzag_in[4][1] top.zigzag_tb.zigzag_in[4][2] top.zigzag_tb.zigzag_in[4][3] top.zigzag_tb.zigzag_in[4][4] top.zigzag_tb.zigzag_in[4][5] top.zigzag_tb.zigzag_in[4][6] top.zigzag_tb.zigzag_in[4][7]
+#{top.zigzag_tb.zigzag_in[5][0:7]} top.zigzag_tb.zigzag_in[5][0] top.zigzag_tb.zigzag_in[5][1] top.zigzag_tb.zigzag_in[5][2] top.zigzag_tb.zigzag_in[5][3] top.zigzag_tb.zigzag_in[5][4] top.zigzag_tb.zigzag_in[5][5] top.zigzag_tb.zigzag_in[5][6] top.zigzag_tb.zigzag_in[5][7]
+#{top.zigzag_tb.zigzag_in[6][0:7]} top.zigzag_tb.zigzag_in[6][0] top.zigzag_tb.zigzag_in[6][1] top.zigzag_tb.zigzag_in[6][2] top.zigzag_tb.zigzag_in[6][3] top.zigzag_tb.zigzag_in[6][4] top.zigzag_tb.zigzag_in[6][5] top.zigzag_tb.zigzag_in[6][6] top.zigzag_tb.zigzag_in[6][7]
+#{top.zigzag_tb.zigzag_in[7][0:7]} top.zigzag_tb.zigzag_in[7][0] top.zigzag_tb.zigzag_in[7][1] top.zigzag_tb.zigzag_in[7][2] top.zigzag_tb.zigzag_in[7][3] top.zigzag_tb.zigzag_in[7][4] top.zigzag_tb.zigzag_in[7][5] top.zigzag_tb.zigzag_in[7][6] top.zigzag_tb.zigzag_in[7][7]
+@800023
+#{top.zigzag_tb.zigzag_out[0:63]} top.zigzag_tb.zigzag_out[0] top.zigzag_tb.zigzag_out[1] top.zigzag_tb.zigzag_out[2] top.zigzag_tb.zigzag_out[3] top.zigzag_tb.zigzag_out[4] top.zigzag_tb.zigzag_out[5] top.zigzag_tb.zigzag_out[6] top.zigzag_tb.zigzag_out[7] top.zigzag_tb.zigzag_out[8] top.zigzag_tb.zigzag_out[9] top.zigzag_tb.zigzag_out[10] top.zigzag_tb.zigzag_out[11] top.zigzag_tb.zigzag_out[12] top.zigzag_tb.zigzag_out[13] top.zigzag_tb.zigzag_out[14] top.zigzag_tb.zigzag_out[15] top.zigzag_tb.zigzag_out[16] top.zigzag_tb.zigzag_out[17] top.zigzag_tb.zigzag_out[18] top.zigzag_tb.zigzag_out[19] top.zigzag_tb.zigzag_out[20] top.zigzag_tb.zigzag_out[21] top.zigzag_tb.zigzag_out[22] top.zigzag_tb.zigzag_out[23] top.zigzag_tb.zigzag_out[24] top.zigzag_tb.zigzag_out[25] top.zigzag_tb.zigzag_out[26] top.zigzag_tb.zigzag_out[27] top.zigzag_tb.zigzag_out[28] top.zigzag_tb.zigzag_out[29] top.zigzag_tb.zigzag_out[30] top.zigzag_tb.zigzag_out[31] top.zigzag_tb.zigzag_out[32] top.zigzag_tb.zigzag_out[33] top.zigzag_tb.zigzag_out[34] top.zigzag_tb.zigzag_out[35] top.zigzag_tb.zigzag_out[36] top.zigzag_tb.zigzag_out[37] top.zigzag_tb.zigzag_out[38] top.zigzag_tb.zigzag_out[39] top.zigzag_tb.zigzag_out[40] top.zigzag_tb.zigzag_out[41] top.zigzag_tb.zigzag_out[42] top.zigzag_tb.zigzag_out[43] top.zigzag_tb.zigzag_out[44] top.zigzag_tb.zigzag_out[45] top.zigzag_tb.zigzag_out[46] top.zigzag_tb.zigzag_out[47] top.zigzag_tb.zigzag_out[48] top.zigzag_tb.zigzag_out[49] top.zigzag_tb.zigzag_out[50] top.zigzag_tb.zigzag_out[51] top.zigzag_tb.zigzag_out[52] top.zigzag_tb.zigzag_out[53] top.zigzag_tb.zigzag_out[54] top.zigzag_tb.zigzag_out[55] top.zigzag_tb.zigzag_out[56] top.zigzag_tb.zigzag_out[57] top.zigzag_tb.zigzag_out[58] top.zigzag_tb.zigzag_out[59] top.zigzag_tb.zigzag_out[60] top.zigzag_tb.zigzag_out[61] top.zigzag_tb.zigzag_out[62] top.zigzag_tb.zigzag_out[63]
+@421
+top.zigzag_tb.zigzag_out[0]
+top.zigzag_tb.zigzag_out[1]
+top.zigzag_tb.zigzag_out[2]
+top.zigzag_tb.zigzag_out[3]
+top.zigzag_tb.zigzag_out[4]
+top.zigzag_tb.zigzag_out[5]
+top.zigzag_tb.zigzag_out[6]
+top.zigzag_tb.zigzag_out[7]
+top.zigzag_tb.zigzag_out[8]
+top.zigzag_tb.zigzag_out[9]
+top.zigzag_tb.zigzag_out[10]
+top.zigzag_tb.zigzag_out[11]
+top.zigzag_tb.zigzag_out[12]
+top.zigzag_tb.zigzag_out[13]
+top.zigzag_tb.zigzag_out[14]
+top.zigzag_tb.zigzag_out[15]
+top.zigzag_tb.zigzag_out[16]
+top.zigzag_tb.zigzag_out[17]
+top.zigzag_tb.zigzag_out[18]
+top.zigzag_tb.zigzag_out[19]
+top.zigzag_tb.zigzag_out[20]
+top.zigzag_tb.zigzag_out[21]
+top.zigzag_tb.zigzag_out[22]
+top.zigzag_tb.zigzag_out[23]
+top.zigzag_tb.zigzag_out[24]
+top.zigzag_tb.zigzag_out[25]
+top.zigzag_tb.zigzag_out[26]
+top.zigzag_tb.zigzag_out[27]
+top.zigzag_tb.zigzag_out[28]
+top.zigzag_tb.zigzag_out[29]
+top.zigzag_tb.zigzag_out[30]
+top.zigzag_tb.zigzag_out[31]
+top.zigzag_tb.zigzag_out[32]
+top.zigzag_tb.zigzag_out[33]
+top.zigzag_tb.zigzag_out[34]
+top.zigzag_tb.zigzag_out[35]
+top.zigzag_tb.zigzag_out[36]
+top.zigzag_tb.zigzag_out[37]
+top.zigzag_tb.zigzag_out[38]
+top.zigzag_tb.zigzag_out[39]
+top.zigzag_tb.zigzag_out[40]
+top.zigzag_tb.zigzag_out[41]
+top.zigzag_tb.zigzag_out[42]
+top.zigzag_tb.zigzag_out[43]
+top.zigzag_tb.zigzag_out[44]
+top.zigzag_tb.zigzag_out[45]
+top.zigzag_tb.zigzag_out[46]
+top.zigzag_tb.zigzag_out[47]
+top.zigzag_tb.zigzag_out[48]
+top.zigzag_tb.zigzag_out[49]
+top.zigzag_tb.zigzag_out[50]
+top.zigzag_tb.zigzag_out[51]
+top.zigzag_tb.zigzag_out[52]
+top.zigzag_tb.zigzag_out[53]
+top.zigzag_tb.zigzag_out[54]
+top.zigzag_tb.zigzag_out[55]
+top.zigzag_tb.zigzag_out[56]
+top.zigzag_tb.zigzag_out[57]
+top.zigzag_tb.zigzag_out[58]
+top.zigzag_tb.zigzag_out[59]
+top.zigzag_tb.zigzag_out[60]
+top.zigzag_tb.zigzag_out[61]
+top.zigzag_tb.zigzag_out[62]
+top.zigzag_tb.zigzag_out[63]
+@1001201
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
