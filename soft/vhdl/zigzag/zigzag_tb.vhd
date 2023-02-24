@@ -44,17 +44,17 @@ begin
   --------------------------------------------------------------------------------
   -- clock and reset
   --------------------------------------------------------------------------------
-	reset_n <= '0','1' after 123 ns;
+  reset_n <= '0','1' after 123 ns;
 	
-	clk <= not(clk) after HALF_PERIOD when running else clk;
+  clk <= not(clk) after HALF_PERIOD when running else clk;
   --------------------------------------------------------------------------------
   -- Design Under Test
   --------------------------------------------------------------------------------
   dut : entity work.zigzag(arch)
     port map (
       clk        => clk       ,
-      reset_n    => reset_n   ,
-	  wr         => wr        ,
+      reset_n    => reset_n   , 
+      wr         => wr        ,
       oe         => oe        ,
       zigzag_in  => zigzag_in ,
       zigzag_out => zigzag_out   
@@ -100,7 +100,7 @@ begin
     wait_cycles(2);  
     
     oe <= '1';
-	wait_cycles(10);  
+    wait_cycles(10);  
 	
     report "end of simulation";
 	running <= false;
