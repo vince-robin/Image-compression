@@ -1,0 +1,138 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Feb 24 16:31:49 2023
+[*]
+[dumpfile] "/mnt/c/Users/vince/Documents/Documents USB/ENSTA/Sequences Academiques/SA6/Application système/soft/FPGA/implementable/dct/dct_tb.ghw"
+[dumpfile_mtime] "Fri Feb 24 16:29:15 2023"
+[dumpfile_size] 4166
+[savefile] "/mnt/c/Users/vince/Documents/Documents USB/ENSTA/Sequences Academiques/SA6/Application système/soft/FPGA/implementable/dct/dct_tb.sav"
+[timestart] 0
+[size] 1536 793
+[pos] -191 -191
+*-27.716436 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.dct_tb.
+[sst_width] 214
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 220
+@28
+top.dct_tb.dut.clk
+top.dct_tb.dut.reset_n
+top.dct_tb.dut.wr
+top.dct_tb.dut.oe
+@22
+#{top.dct_tb.dct_in[0][0:7]} top.dct_tb.dct_in[0][0] top.dct_tb.dct_in[0][1] top.dct_tb.dct_in[0][2] top.dct_tb.dct_in[0][3] top.dct_tb.dct_in[0][4] top.dct_tb.dct_in[0][5] top.dct_tb.dct_in[0][6] top.dct_tb.dct_in[0][7]
+#{top.dct_tb.dct_in[1][0:7]} top.dct_tb.dct_in[1][0] top.dct_tb.dct_in[1][1] top.dct_tb.dct_in[1][2] top.dct_tb.dct_in[1][3] top.dct_tb.dct_in[1][4] top.dct_tb.dct_in[1][5] top.dct_tb.dct_in[1][6] top.dct_tb.dct_in[1][7]
+#{top.dct_tb.dct_in[2][0:7]} top.dct_tb.dct_in[2][0] top.dct_tb.dct_in[2][1] top.dct_tb.dct_in[2][2] top.dct_tb.dct_in[2][3] top.dct_tb.dct_in[2][4] top.dct_tb.dct_in[2][5] top.dct_tb.dct_in[2][6] top.dct_tb.dct_in[2][7]
+#{top.dct_tb.dct_in[3][0:7]} top.dct_tb.dct_in[3][0] top.dct_tb.dct_in[3][1] top.dct_tb.dct_in[3][2] top.dct_tb.dct_in[3][3] top.dct_tb.dct_in[3][4] top.dct_tb.dct_in[3][5] top.dct_tb.dct_in[3][6] top.dct_tb.dct_in[3][7]
+#{top.dct_tb.dct_in[4][0:7]} top.dct_tb.dct_in[4][0] top.dct_tb.dct_in[4][1] top.dct_tb.dct_in[4][2] top.dct_tb.dct_in[4][3] top.dct_tb.dct_in[4][4] top.dct_tb.dct_in[4][5] top.dct_tb.dct_in[4][6] top.dct_tb.dct_in[4][7]
+#{top.dct_tb.dct_in[5][0:7]} top.dct_tb.dct_in[5][0] top.dct_tb.dct_in[5][1] top.dct_tb.dct_in[5][2] top.dct_tb.dct_in[5][3] top.dct_tb.dct_in[5][4] top.dct_tb.dct_in[5][5] top.dct_tb.dct_in[5][6] top.dct_tb.dct_in[5][7]
+#{top.dct_tb.dct_in[6][0:7]} top.dct_tb.dct_in[6][0] top.dct_tb.dct_in[6][1] top.dct_tb.dct_in[6][2] top.dct_tb.dct_in[6][3] top.dct_tb.dct_in[6][4] top.dct_tb.dct_in[6][5] top.dct_tb.dct_in[6][6] top.dct_tb.dct_in[6][7]
+#{top.dct_tb.dct_in[7][0:7]} top.dct_tb.dct_in[7][0] top.dct_tb.dct_in[7][1] top.dct_tb.dct_in[7][2] top.dct_tb.dct_in[7][3] top.dct_tb.dct_in[7][4] top.dct_tb.dct_in[7][5] top.dct_tb.dct_in[7][6] top.dct_tb.dct_in[7][7]
+@800023
+#{top.dct_tb.dct_out[0][0:7]} top.dct_tb.dct_out[0][0] top.dct_tb.dct_out[0][1] top.dct_tb.dct_out[0][2] top.dct_tb.dct_out[0][3] top.dct_tb.dct_out[0][4] top.dct_tb.dct_out[0][5] top.dct_tb.dct_out[0][6] top.dct_tb.dct_out[0][7]
+@421
+top.dct_tb.dct_out[0][0]
+top.dct_tb.dct_out[0][1]
+top.dct_tb.dct_out[0][2]
+top.dct_tb.dct_out[0][3]
+top.dct_tb.dct_out[0][4]
+top.dct_tb.dct_out[0][5]
+top.dct_tb.dct_out[0][6]
+top.dct_tb.dct_out[0][7]
+@1001201
+-group_end
+@c00022
+#{top.dct_tb.dct_out[1][0:7]} top.dct_tb.dct_out[1][0] top.dct_tb.dct_out[1][1] top.dct_tb.dct_out[1][2] top.dct_tb.dct_out[1][3] top.dct_tb.dct_out[1][4] top.dct_tb.dct_out[1][5] top.dct_tb.dct_out[1][6] top.dct_tb.dct_out[1][7]
+@420
+top.dct_tb.dct_out[1][0]
+top.dct_tb.dct_out[1][1]
+top.dct_tb.dct_out[1][2]
+top.dct_tb.dct_out[1][3]
+top.dct_tb.dct_out[1][4]
+top.dct_tb.dct_out[1][5]
+top.dct_tb.dct_out[1][6]
+top.dct_tb.dct_out[1][7]
+@1401200
+-group_end
+@c00022
+#{top.dct_tb.dct_out[2][0:7]} top.dct_tb.dct_out[2][0] top.dct_tb.dct_out[2][1] top.dct_tb.dct_out[2][2] top.dct_tb.dct_out[2][3] top.dct_tb.dct_out[2][4] top.dct_tb.dct_out[2][5] top.dct_tb.dct_out[2][6] top.dct_tb.dct_out[2][7]
+@420
+top.dct_tb.dct_out[2][0]
+top.dct_tb.dct_out[2][1]
+top.dct_tb.dct_out[2][2]
+top.dct_tb.dct_out[2][3]
+top.dct_tb.dct_out[2][4]
+top.dct_tb.dct_out[2][5]
+top.dct_tb.dct_out[2][6]
+top.dct_tb.dct_out[2][7]
+@1401200
+-group_end
+@c00022
+#{top.dct_tb.dct_out[3][0:7]} top.dct_tb.dct_out[3][0] top.dct_tb.dct_out[3][1] top.dct_tb.dct_out[3][2] top.dct_tb.dct_out[3][3] top.dct_tb.dct_out[3][4] top.dct_tb.dct_out[3][5] top.dct_tb.dct_out[3][6] top.dct_tb.dct_out[3][7]
+@420
+top.dct_tb.dct_out[3][0]
+top.dct_tb.dct_out[3][1]
+top.dct_tb.dct_out[3][2]
+top.dct_tb.dct_out[3][3]
+top.dct_tb.dct_out[3][4]
+top.dct_tb.dct_out[3][5]
+top.dct_tb.dct_out[3][6]
+top.dct_tb.dct_out[3][7]
+@1401200
+-group_end
+@c00022
+#{top.dct_tb.dct_out[4][0:7]} top.dct_tb.dct_out[4][0] top.dct_tb.dct_out[4][1] top.dct_tb.dct_out[4][2] top.dct_tb.dct_out[4][3] top.dct_tb.dct_out[4][4] top.dct_tb.dct_out[4][5] top.dct_tb.dct_out[4][6] top.dct_tb.dct_out[4][7]
+@420
+top.dct_tb.dct_out[4][0]
+top.dct_tb.dct_out[4][1]
+top.dct_tb.dct_out[4][2]
+top.dct_tb.dct_out[4][3]
+top.dct_tb.dct_out[4][4]
+top.dct_tb.dct_out[4][5]
+top.dct_tb.dct_out[4][6]
+top.dct_tb.dct_out[4][7]
+@1401200
+-group_end
+@c00022
+#{top.dct_tb.dct_out[5][0:7]} top.dct_tb.dct_out[5][0] top.dct_tb.dct_out[5][1] top.dct_tb.dct_out[5][2] top.dct_tb.dct_out[5][3] top.dct_tb.dct_out[5][4] top.dct_tb.dct_out[5][5] top.dct_tb.dct_out[5][6] top.dct_tb.dct_out[5][7]
+@420
+top.dct_tb.dct_out[5][0]
+top.dct_tb.dct_out[5][1]
+top.dct_tb.dct_out[5][2]
+top.dct_tb.dct_out[5][3]
+top.dct_tb.dct_out[5][4]
+top.dct_tb.dct_out[5][5]
+top.dct_tb.dct_out[5][6]
+top.dct_tb.dct_out[5][7]
+@1401200
+-group_end
+@c00022
+#{top.dct_tb.dct_out[6][0:7]} top.dct_tb.dct_out[6][0] top.dct_tb.dct_out[6][1] top.dct_tb.dct_out[6][2] top.dct_tb.dct_out[6][3] top.dct_tb.dct_out[6][4] top.dct_tb.dct_out[6][5] top.dct_tb.dct_out[6][6] top.dct_tb.dct_out[6][7]
+@420
+top.dct_tb.dct_out[6][0]
+top.dct_tb.dct_out[6][1]
+top.dct_tb.dct_out[6][2]
+top.dct_tb.dct_out[6][3]
+top.dct_tb.dct_out[6][4]
+top.dct_tb.dct_out[6][5]
+top.dct_tb.dct_out[6][6]
+top.dct_tb.dct_out[6][7]
+@1401200
+-group_end
+@c00022
+#{top.dct_tb.dct_out[7][0:7]} top.dct_tb.dct_out[7][0] top.dct_tb.dct_out[7][1] top.dct_tb.dct_out[7][2] top.dct_tb.dct_out[7][3] top.dct_tb.dct_out[7][4] top.dct_tb.dct_out[7][5] top.dct_tb.dct_out[7][6] top.dct_tb.dct_out[7][7]
+@420
+top.dct_tb.dct_out[7][0]
+top.dct_tb.dct_out[7][1]
+top.dct_tb.dct_out[7][2]
+top.dct_tb.dct_out[7][3]
+top.dct_tb.dct_out[7][4]
+top.dct_tb.dct_out[7][5]
+top.dct_tb.dct_out[7][6]
+top.dct_tb.dct_out[7][7]
+@1401200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0
