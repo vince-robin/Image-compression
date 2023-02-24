@@ -114,7 +114,7 @@ if __name__ == '__main__':
 
     # Quantization matrix for luminance and chrominance with a defined quantization level QLEVEL
     # The higher the QLEVEL, the worse the compression, but the image quality remains.
-    QLEVEL = 90
+    QLEVEL = 10
     QLuminance = quantization(QLEVEL, "luminance")
     QChrominance = quantization(QLEVEL, "chrominance")
     print("Quantization level is: ", QLEVEL)
@@ -232,7 +232,7 @@ if __name__ == '__main__':
     plt.show()
 
     # Sauvegarde de la figure 
-    fig.savefig("quantization_error_QLevel_"+str(QLEVEL)+".png")
+    fig.savefig("channels_YCrCb_quantified_QLevel_"+str(QLEVEL)+".png")
 
     # ********************************************************************** #
     #  Visualisation d'un bloc quantifié choisi au hasard pour Y, Cr et Cb   #
