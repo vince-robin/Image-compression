@@ -18,8 +18,8 @@ Le programme attend les options suivantes :
 - **input** : image d'entrée à compresser à placer dans le répertoire [/img](img). Le format est libre (.png, .jpg, .jpeg, .tiff, .bmp...) et l'image peut être de toutes les tailles possibles.
 - **quality** (optionnel, valeur par défaut 50) : choix du niveau de quantification. Plus la valeur est grande, meilleure est la qualité de l'image compressée. En contrepartie, le taux de compression est moins important. 
 
-En sortie, le programme génère un flux de données binaires [data_compressed.bin](data_compressed.bin) issu du codage de Huffman, les tables de Huffman pour les trois composantes Y, Cr, Cb, ainsi qu'une série d'analyse graphique.
-Ce fichier possède une en-tête contenant des inforrmations que le décodeur doit connaitre :
+En sortie, le programme génère un flux de données binaires [data_compressed.bin](data_compressed.bin) issu du codage de Huffman, les tables de Huffman (au format .json) pour les trois composantes Y, Cr, Cb, ainsi qu'une série d'analyses graphique.
+Le fichier binaire possède un en-tête, introduit avant les données compressés, et contenant des informations que le décodeur doit connaitre :
 
 - le niveau de quantification (le compresseur et le décompresseur doivent s'accorder sur la même valeur)
 - les dimension de l'image d'origine (hauteur et largeur)
@@ -30,7 +30,7 @@ Ce fichier possède une en-tête contenant des inforrmations que le décodeur do
     python3 -B decompression.py
 
 
-En sortie, le programme sauvegarde l'image décompressée au format .jpg et .ppm ainsi qu'une série d'analyse sous forme graphique.
+En sortie, le programme sauvegarde l'image décompressée au format .jpg et .ppm ainsi qu'une série d'analyses sous forme graphique.
 
 
 ## Version et Packages de Python
