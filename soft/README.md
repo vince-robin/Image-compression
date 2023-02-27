@@ -10,7 +10,7 @@
 
 ## Comment exécuter le code du compresseur ?
 
-    python3 compression.py img_to_compress.jpg -q 80
+    python3 -B compression.py img_to_compress.jpg -q 80
 
 
 Le programme attend les options suivantes :
