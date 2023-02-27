@@ -14,7 +14,7 @@
 
 ## Comment exécuter le code du compresseur ?
 
-    python3 -B compression.py img_to_compress.jpg -q 80
+    python3 -B compression.py img_to_compress.jpg -q 80    # "-B" option to ignore the generation of bytecode in the __pycache__ folder
 
 Voici ce que le programme doit afficher à l'utilisateur dans le terminal :
 
@@ -70,7 +70,7 @@ Le fichier binaire possède un en-tête, introduit avant les données compressé
 
 ## Comment exécuter le code du décompresseur ?
 
-    python3 -B decompression.py
+    python3 -B decompression.py     # "-B" option to ignore the generation of bytecode in the __pycache__ folder
 
 
 En sortie, le programme sauvegarde dans le répertoire [/outputs](outputs) l'image décompressée au format .jpg et .ppm ainsi qu'une série d'analyses sous forme graphique dans le répertoire [/analyse](analyse).
