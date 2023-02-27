@@ -30,9 +30,9 @@ Le programme de décompression, reproduit à l'identique, mais dans l'ordre inve
 
 Le modèle prend en entrée une image (le format est libre : .jpg/.jpeg, .png, .bmp, .tiff..., la dimension également), et je fournis aussi un script Python permettant de générer des images synthétiques au format PPM, images simples qui peuvent être utilisées pour tester les différentes phases de l'algorithme.
 
-Le **compresseur** génère un fichier *.txt* qui contient le flux de données (bitstream) encodé et les dictionnaires de Huffman utilisés pour le codage des canaux Y,Cr,Cb. Il affiche à titre d'informations le taux de compression (en prenant en compte la taille des dictionnaires de Huffman transmis au décodeur).
+Le **compresseur** génère un fichier binaire *.bin* qui contient le flux de données (bitstream) encodé et trois dictionnaires de Huffman (au format JSON) utilisés pour le codage des canaux Y,Cr,Cb. Il affiche à titre d'informations le taux de compression (en prenant soin de prendre en compte la taille des dictionnaires de Huffman transmis au décodeur).
 
-Le **décompresseur** utilise le bitstream et les dictionnaires de Huffman afin de reconstruire l'image d'origine qui est sauvegardé au format .jpg et au format .ppm
+Le **décompresseur** utilise le train binaire et les dictionnaires de Huffman afin de reconstruire l'image d'origine qui est sauvegardé au format .jpg et au format .ppm
 
 
 ## Organisation du répertoire
