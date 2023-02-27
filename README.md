@@ -37,8 +37,8 @@ Le **décompresseur** utilise le train binaire et les dictionnaires de Huffman a
 
 ## Organisation du répertoire
 
-* :file_folder: [/doc](doc) : documentations, présentations, articles scientifiques, et datasheets utilisés pour la réalisation de ce projet. Je conseille en particulier de consulter la notice du [standard JPEG](/doc/jpeg_standard/ITU_RecommendationT81_approved_by_CCITT.pdf) sur laquelle je me suis inspiré pour la construction de mon modèle. 
-* :file_folder: [/soft](soft) : contient tout les développements, des fonctions utiles, et en particulier, les programmes Python de l'[encodeur](/soft/encoder.py) qui compresse une image du [décodeur](/soft/decoder.py) et qui la décompresse. Je fournis également quelques briques VHDL (DCT, RLE, Zigzag scanning) pour une future implémentation sur FPGA.
+* :file_folder: [/doc](doc) : documentations, présentations, articles scientifiques, datasheets, soutenances et réunions du projet. Je conseille en particulier de consulter la notice du [standard JPEG](/doc/jpeg_standard/ITU_RecommendationT81_approved_by_CCITT.pdf) sur laquelle je me suis inspiré pour la construction de mon modèle. 
+* :file_folder: [/soft](soft) : contient tous les développements, des fonctions utiles, et en particulier, les programmes Python de l'[encodeur](/soft/compression.py) qui compresse une image et du [décodeur](/soft/decompression.py) qui la décompresse. Je fournis également quelques briques VHDL (DCT, RLE, Zigzag scanning) pour une future implémentation sur FPGA.
 
 
 ## Informations supplémentaires 
