@@ -1,6 +1,6 @@
 ## Comment exécuter les codes VHDL ?
 
-Je fournis dans chaque répertoire un script bash [compile.x](compile.x) qui automatise le processus d'analyse et d'élaboration avec *GHDL* et la visualisation des formes d'ondes avec *GTKWave*.
+Je fournis dans chaque répertoire un script bash [compile.x](https://github.com/vince-robin/Image-compression/blob/main/soft/vhdl/rle/compile.x) qui automatise le processus d'analyse et d'élaboration avec *GHDL* et la visualisation des formes d'ondes avec *GTKWave*.
 S'assurer au préalable que les droits d'exécution ont été accordés à l'utilisateur avant de lancer le script :
 
     $  chmod +x compile.x
