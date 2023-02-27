@@ -15,7 +15,7 @@
 
 Le programme attend les options suivantes :
 
-- **input** : image d'entrée à compresser à placer dans le répertoire [/img](img). Le format est libre (.png, .jpg, .jpeg, .tiff, .bmp...) et l'image peut être de toutes les tailles possibles.
+- **input** : image d'entrée à compresser à placer dans le répertoire [/imgs](imgs). Le format est libre (.png, .jpg, .jpeg, .tiff, .bmp...) et l'image peut être de toutes les tailles possibles.
 - **quality** (optionnel, valeur par défaut 50) : choix du niveau de quantification. Plus la valeur est grande, meilleure est la qualité de l'image compressée. En contrepartie, le taux de compression est moins important. 
 
 En sortie, le programme génère un flux de données binaires [data_compressed.bin](data_compressed.bin) issu du codage de Huffman, les tables de Huffman (au format .json) pour les trois composantes Y, Cr, Cb, ainsi qu'une série d'analyses graphique.
