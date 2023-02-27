@@ -13,7 +13,7 @@ Le projet vise en premier lieu à élaborer un modèle de référence (inspiré 
 
 ## Structure du modèle de référence
 
-L'algorithme de compression/décompression reprend en grande partie les étapes connues du standard JPEG, à savoir :
+L'algorithme de compression/décompression reprend en grande partie les étapes du standard JPEG, à savoir :
 - conversion de l'espace des couleurs (RGB vers YUV),
 - sous-échantillonnage de la chrominance (4:4:4 vers 4:4:2 ou 4:2:0),
 - découpage en blocs 8x8 de 64 pixels,
