@@ -34,7 +34,7 @@ Voici ce que le programme doit afficher à l'utilisateur dans le terminal :
     Original picture dimension: (436 x 500)
     Total number of bits:  5232000
     Zero padding: is required
-    Quantization level is (0-100):  40
+    Quantization level is (1-99):  40
 
     Files correctly generated:
       --> cbHuffman_dict.json
@@ -79,7 +79,7 @@ En sortie, le programme sauvegarde dans le répertoire [/outputs](outputs) l'ima
 Voici ce que le programme doit afficher à l'utilisateur dans le terminal :
 
     Original picture dimensions: 436x500
-    Quantization level (0-100): 40
+    Quantization level (1-99): 40
     Execution time: 5.15 sec
     SNR: 26.57 dB
     MSE: 227.39
