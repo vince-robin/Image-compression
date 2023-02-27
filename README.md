@@ -7,7 +7,7 @@
 
 ## Introduction 
 
-La compression d'images est un domaine emblématique des systèmes multimédia. L’élaboration de normes de compression efficaces revêt une importance cruciale notamment du fait de l’explosion de la consommation de vidéo sur internet, consommatrice de bande passante.
+La compression d'images est un domaine emblématique des systèmes multimédias. L’élaboration de normes de compression efficaces revêt une importance cruciale notamment du fait de l’explosion de la consommation de vidéo sur internet, consommatrice de bande passante.
 Le projet vise en premier lieu à élaborer un modèle de référence (inspiré de la norme JPEG) capable de compresser une image. Le but final est de travailler dans un contexte dynamique, sur une vidéo et d'implémenter l'algorithme sur une cible FPGA (qui pourra par exemple capter une séquence vidéo avec une caméra bon marché du type [OV7670](https://www.eagle-robotics.com/cameras/78-camera-ov7670-compatible-arduino-0780201370781.html)).
 
 
@@ -28,11 +28,11 @@ L'algorithme de compression/décompression reprend en grande partie les étapes 
 
 Le programme de décompression, reproduit à l'identique, mais dans l'ordre inverse, le processus de compression. 
 
-Le modèle prend en entrée une image (le format est libre : .jpg/.jpeg, .png, .bmp, .tiff..., la dimension également), mais je fournis également un script Python permettant de générer des images synthétiques au format PPM, images simples qui peuvent être utilisées pour tester les différentes phases de l'algorithme.
+Le modèle prend en entrée une image (le format est libre : .jpg/.jpeg, .png, .bmp, .tiff..., la dimension également), et je fournis aussi un script Python permettant de générer des images synthétiques au format PPM, images simples qui peuvent être utilisées pour tester les différentes phases de l'algorithme.
 
 Le **compresseur** génère un fichier *.txt* qui contient le flux de données (bitstream) encodé et les dictionnaires de Huffman utilisés pour le codage des canaux Y,Cr,Cb. Il affiche à titre d'informations le taux de compression (en prenant en compte la taille des dictionnaires de Huffman transmis au décodeur).
 
-Le **décompresseur** utilise le bitstream et les dictionnaires de Huffman afin de reconstruire l'image d'origine qui est sauvargardé au format .jpg et au format .ppm
+Le **décompresseur** utilise le bitstream et les dictionnaires de Huffman afin de reconstruire l'image d'origine qui est sauvegardé au format .jpg et au format .ppm
 
 
 ## Organisation du répertoire
