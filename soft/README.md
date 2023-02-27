@@ -1,7 +1,7 @@
 
 ## Organisation du répertoire
 
-* :file_folder: [/codes_wiki](code_wiki) : les codes utilisés dans les différentes parties du Wiki
+* :file_folder: [/codes_wiki](codes_wiki) : les codes utilisés dans les différentes parties du Wiki
 
 * :file_folder: [/functions](functions) : des fonctions Python écrites pour mener à bien le projet (par exemple le script de génération d'images synthétiques, ...)
 
