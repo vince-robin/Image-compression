@@ -16,6 +16,45 @@
 
     python3 -B compression.py img_to_compress.jpg -q 80
 
+Voici ce que le programme doit afficher à l'utilisateur dans le terminal :
+
+    Original picture dimension: (436 x 500)
+    Total number of bits:  5232000
+    Zero padding: is required
+    Quantization level is (0-100):  40
+
+    Files correctly generated:
+      --> cbHuffman_dict.json
+      --> compressed_data.bin
+      --> crHuffman_dict.json
+      --> yHuffman_dict.json
+
+    Number of bits after compression:  69837
+    Compression rate:  74.92
+    Execution time:  1.06sec
+
+    Huffman analysis:
+    --------------------------------------------------------------------------------------------------------------------------------------
+                 Luminance Y                |               Chrominance Cr                  |               Chrominance Cb
+    --------------------------------------------------------------------------------------------------------------------------------------
+    Symbol          Proba   Code    Length  |       Symbol          Proba   Code    Length  |       Symbol          Proba  Code     Length
+    --------------------------------------------------------------------------------------------------------------------------------------
+    (1, 0)          0.146   100     3       |       (-1, 0)         0.121   010     3       |       (-1, 0)         0.108  100      3
+    (-1, 0)         0.137   110     3       |       (1, 0)          0.086   1111    4       |       (1, 0)          0.092  1111     4
+    (-1, 1)         0.05    0001    4       |       (47, 7)         0.054   00110   5       |       (1, 1)          0.041  0011     5
+    (2, 0)          0.048   0100    4       |       (2, 0)          0.041   01101   5       |       (50, 7)         0.039  11001    5
+    (-2, 0)         0.047   0011    4       |       (48, 7)         0.041   11011   5       |       (2, 0)          0.036  10101    5
+    (1, 1)          0.044   11111   5       |       (-2, 0)         0.036   11000   5       |       (51, 7)         0.032  10111    5
+    (3, 0)          0.022   00000   5       |       (1, 1)          0.035   11010   5       |       (-1, 1)         0.028  11011    5
+    (-3, 0)         0.022   010111  6       |       (-1, 1)         0.033   10101   5       |       (-2, 0)         0.026  11100    5
+    (-1, 2)         0.018   111100  6       |       (45, 7)         0.016   00010   5       |       (55, 7)         0.024  001001   5
+    (1, 2)          0.017   101011  6       |       (46, 7)         0.015   00011   5       |       (52, 7)         0.024  010001   5
+    --------------------------------------------------------------------------------------------------------------------------------------
+    Total           0.549                   |       Total           0.479                   |       Total           0.450
+    --------------------------------------------------------------------------------------------------------------------------------------
+    Entropy                         6.3     |       Entropy                         6.0     |       Entropy                6.1
+    --------------------------------------------------------------------------------------------------------------------------------------
+
 
 Le programme attend les options suivantes :
 
@@ -36,6 +75,13 @@ Le fichier binaire possède un en-tête, introduit avant les données compressé
 
 En sortie, le programme sauvegarde dans le répertoire [/outputs](outputs) l'image décompressée au format .jpg et .ppm ainsi qu'une série d'analyses sous forme graphique dans le répertoire [/analyse](analyse).
 
+Voici ce que le programme doit afficher à l'utilisateur dans le terminal :
+
+    Original picture dimensions: 436x500
+    Quantization level (0-100): 40
+    Execution time: 5.15 sec
+    SNR: 26.57 dB
+    MSE: 227.39
 
 ## Version et Packages de Python
 
