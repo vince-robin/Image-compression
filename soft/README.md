@@ -10,32 +10,27 @@
 
 ## Comment exécuter le code du compresseur ?
 
-    python3 encoder.py -input img_to_compress.jpeg -quality 80 -huffman dynamic
+    python3 compression.py img_to_compress.jpg -q 80
 
 
 Le programme attend les options suivantes :
 
 - **input** : image d'entrée à compresser à placer dans le répertoire [/img](img). Le format est libre (.png, .jpg, .jpeg, .tiff, .bmp...) et l'image peut être de toutes les tailles possibles.
-- **quality** : choix du niveau de quantification. Plus la valeur est grande, meilleure est la qualité de l'image compressée. En contrepartie, le taux de compression est moins important.
-- **huffman** : sélection de la manière d'adresser les tables de Huffman au décodeur. En mode "dynamic" les tables sont différentes pour chaque images, il faut donc transmettre les dictionnaires des 3 canaux Y,Cr,Cb au décodeur. En mode "static" les tables de Huffman utilisées sont les mêmes pour toutes les images, ce sont celles du standard JPEG définies dans le fichier [tables.py](tables.py).
+- **quality** (optionnel, valeur par défaut 50) : choix du niveau de quantification. Plus la valeur est grande, meilleure est la qualité de l'image compressée. En contrepartie, le taux de compression est moins important. 
 
-En sortie, le programme génère un flux de données binaires [bitstream.txt](bitstream.txt) issu du codage de Huffman, et en fonction du mode d'adressage des tables de Huffman, trois dictionnaires pour les canaux Y, Cr, Cb. 
-Ce fichier possède en première ligne des ifnrmations supplémentaires que le décodeur doit connaitre :
+En sortie, le programme génère un flux de données binaires [data_compressed.bin](data_compressed.bin) issu du codage de Huffman, les tables de Huffman pour les trois composantes Y, Cr, Cb, ainsi qu'une série d'analyse graphique.
+Ce fichier possède une en-tête contenant des inforrmations que le décodeur doit connaitre :
 
 - le niveau de quantification (le compresseur et le décompresseur doivent s'accorder sur la même valeur)
 - les dimension de l'image d'origine (hauteur et largeur)
+- les dimensions des composantes de luminance et de chrominance (Cr et Cb)
 
 ## Comment exécuter le code du décompresseur ?
 
-    python3 decoder.py -input bitstream.txt -huffman dynamic
+    python3 -B decompression.py
 
 
-Le programme attend les options suivantes :
-
-- **input** : le flux de données encodés [bitstream.txt](bitstream.txt)
-- **huffman** : sélection de la manière de recevoir les tables de Huffman. En mode "dynamic" les dictionnaires de Huffman utilisées pour les 3 canaux Y,Cr,Cb sont ceux générés par le compresseur. En mode "static" les tables de Huffman utilisées pour la décompression sont celles du standard JPEG définies dans le fichier [tables.py](tables.py).
-
-En sortie, le programme sauvegarde l'image décompressée au format .jpg
+En sortie, le programme sauvegarde l'image décompressée au format .jpg et .ppm ainsi qu'une série d'analyse sous forme graphique.
 
 
 ## Version et Packages de Python
