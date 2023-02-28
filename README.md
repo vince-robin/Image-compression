@@ -32,7 +32,7 @@ Le modèle prend en entrée une image (le format est libre : .jpg/.jpeg, .png, .
 
 Le **compresseur** génère un fichier binaire *.bin* qui contient le flux de données (bitstream) encodé et trois dictionnaires de Huffman (au format JSON) utilisés pour le codage des canaux Y,Cr,Cb. Il affiche à titre d'informations le taux de compression (en prenant soin de prendre en compte la taille des dictionnaires de Huffman transmis au décodeur).
 
-Le **décompresseur** utilise le train binaire et les dictionnaires de Huffman afin de reconstruire l'image d'origine qui est sauvegardé au format .jpg et au format .ppm
+Le **décompresseur** utilise le train binaire et les dictionnaires de Huffman afin de reconstruire l'image d'origine qui est sauvegardée au format .jpg et au format .ppm
 
 
 ## Organisation du répertoire
