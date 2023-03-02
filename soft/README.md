@@ -83,6 +83,9 @@ Voici ce que le programme doit afficher à l'utilisateur dans le terminal :
     Execution time: 5.15 sec
     SNR: 26.57 dB
     MSE: 227.39
+ 
+ Voici le schéma de principe de processus de compression et de décompression utilisant les scripts Python : 
+<img src = "https://github.com/vince-robin/Image-compression/blob/main/imgs/compression_decompression_demonstration.png" width=700>
 
 ## Version et Packages de Python
 
